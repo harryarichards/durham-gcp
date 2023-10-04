@@ -1,0 +1,106 @@
+\begin{thebibliography}{xx}
+
+\harvarditem{Appel \harvardand\ Haken}{1976}{Appel}
+Appel, K. \harvardand\ Haken, W.  \harvardyearleft 1976\harvardyearright ,
+  `Every planar map is four colorable'.
+
+\harvarditem{Br\'{e}laz}{1979}{Brelaz}
+Br\'{e}laz, D.  \harvardyearleft 1979\harvardyearright , `New methods to color
+  the vertices of a graph',  p.~252.
+
+\harvarditem{Chaitin}{1982}{Chaitin}
+Chaitin, G.  \harvardyearleft 1982\harvardyearright , `Register allocation \&
+  spilling via graph colouring'.
+
+\harvarditem{Chartrand \harvardand\ Zhang}{2009}{Zhang}
+Chartrand, G. \harvardand\ Zhang, P.  \harvardyearleft 2009\harvardyearright ,
+  {\em Chromatic graph theory}, Chapman \& Hall/CRC/Taylor \& Francis Group.
+
+\harvarditem{Davis}{2003}{Davis}
+Davis, L.  \harvardyearleft 2003\harvardyearright , {\em Handbook of genetic
+  algorithms}, Van Nostrand Reinhold: New York.
+
+\harvarditem{Galinier \harvardand\ Hao}{1999}{Hao}
+Galinier, P. \harvardand\ Hao, J.  \harvardyearleft 1999\harvardyearright ,
+  `Hybrid evolutionary algorithms for graph coloring',  pp.~384--387.
+
+\harvarditem{Geman \harvardand\ Geman}{1984}{Geman}
+Geman, D. \harvardand\ Geman, S.  \harvardyearleft 1984\harvardyearright ,
+  `Stochastic relaxation, gibbs distributions, and the bayesian restoration of
+  images',  pp.~721--741.
+
+\harvarditem{Gupta \harvardand\ Ghafir}{2012}{Gupta}
+Gupta, D. \harvardand\ Ghafir, S.  \harvardyearleft 2012\harvardyearright , `An
+  overview of methods maintaining diversity in genetic algorithms',  {\bf 2}.
+
+\harvarditem{Halld\'{o}rsson}{1993}{Halldorsson}
+Halld\'{o}rsson, M.~M.  \harvardyearleft 1993\harvardyearright , `A still
+  better performance guarantee for approximate graph coloring'.
+
+\harvarditem{Hertz \harvardand\ de~Werra}{1987}{Hertz}
+Hertz, A. \harvardand\ de~Werra, D.  \harvardyearleft 1987\harvardyearright ,
+  `Using tabu search techniques for graph coloring'.
+
+\harvarditem{Johnson \harvardand\ Trick}{1993}{Johnson}
+Johnson, D. \harvardand\ Trick, M.  \harvardyearleft 1993\harvardyearright ,
+  {\em Cliques, Coloring, and Satisfiability}, American Mathematical Society.
+
+\harvarditem{Leighton}{1979}{Leighton}
+Leighton, F.~T.  \harvardyearleft 1979\harvardyearright , `A graph coloring
+  algorithm for large scheduling problems',  pp.~490--491.
+
+\harvarditem{Lewis}{2015}{Lewis}
+Lewis, R.  \harvardyearleft 2015\harvardyearright , {\em A Guide to Graph
+  Colouring: Algorithms and Applications}, Springer.
+
+\harvarditem{Malaguti \harvardand\ Toth}{2010}{Toth}
+Malaguti, E., M.~M. \harvardand\ Toth, P.  \harvardyearleft
+  2010\harvardyearright , `An exact approach for the vertex coloring problem.'.
+
+\harvarditem{Marappan \harvardand\ Sethumadhavan}{2017}{Marappan}
+Marappan, R. \harvardand\ Sethumadhavan, G.  \harvardyearleft
+  2017\harvardyearright , `Solution to graph coloring using genetic and tabu
+  search procedures.',  pp.~525--528.
+
+\harvarditem{Marco~Chiarandini \harvardand\ St\"utzle}{2003}{Stutzle}
+Marco~Chiarandini, I.~D. \harvardand\ St\"utzle, T.  \harvardyearleft
+  2003\harvardyearright , `Local search for the colouring graph problem. a
+  computational study'.
+
+\harvarditem{Mitchem}{1973}{Mitchem}
+Mitchem, J.  \harvardyearleft 1973\harvardyearright , `On various algorithms
+  for estimating the chromatic number of a graph',  pp.~182--183.
+
+\harvarditem{Penrose}{2003}{Penrose}
+Penrose, M.  \harvardyearleft 2003\harvardyearright , {\em On various
+  algorithms for estimating the chromatic number of a graph}, Oxford University
+  Press.
+
+\harvarditem{Porumbel}{2008}{Porumbel}
+Porumbel, D., H. J. K.~P.  \harvardyearleft 2008\harvardyearright , {\em A
+  study of evaluation functions for the graph K-coloring problem.}, Springer.
+
+\harvarditem{Resende \harvardand\ Sousa}{2004}{Sousa}
+Resende, M. \harvardand\ Sousa, J.  \harvardyearleft 2004\harvardyearright ,
+  {\em Metaheuristics}, Springer.
+
+\harvarditem{Tarjan \harvardand\ Trojanowski}{1976}{Tarjan}
+Tarjan, R.~E. \harvardand\ Trojanowski, A.~E.  \harvardyearleft
+  1976\harvardyearright , `Finding a maximum independent set'.
+
+\harvarditem{Trudeau}{1993}{Trudeau}
+Trudeau, R.  \harvardyearleft 1993\harvardyearright , `Introduction to graph
+  theory',  p.~64.
+
+\harvarditem{Vose}{1999}{Vose}
+Vose, M.~D.  \harvardyearleft 1999\harvardyearright , `The simple genetic
+  algorithm: Foundations and theory',  pp.~21--36.
+
+\harvarditem{Wikipedia}{2007}{Wiki}
+Wikipedia  \harvardyearleft 2007\harvardyearright , `Four color theorem'.
+
+\harvarditem{Zuckerman}{2007}{Zuckerman}
+Zuckerman, D.  \harvardyearleft 2007\harvardyearright , `Linear degree
+  extractors and the inapproximability of max clique and chromatic number'.
+
+\end{thebibliography}

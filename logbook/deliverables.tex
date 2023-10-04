@@ -1,0 +1,66 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{times}
+\usepackage{durhampaper}
+\usepackage{harvard}
+\usepackage{enumitem}
+
+
+\usepackage{algorithm, algpseudocode}
+
+\usepackage{booktabs}
+\usepackage{longtable}
+
+\usepackage{graphicx}
+\usepackage{wrapfig}
+
+\usepackage{array}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+
+\citationmode{abbr}
+\bibliographystyle{agsm}
+
+
+
+\begin{document}
+\begin{tabular}[t]{p{.30\textwidth}  p{.55\textwidth}  p{.20\textwidth}}
+  \textbf{Harry Alexander Richards}  & & \textbf{06/05/2019} \\
+  \textbf{Daniel Paulusma} & & \textbf{Deliverables} \\
+  \textit{Durham University} & & 
+\end{tabular}
+
+\vspace{1cm}
+
+\subsection*{Basic Objectives}
+\begin{enumerate}[label = \textbf{B\arabic*}]
+\itemsep0em
+\item Design a tool in which one can input benchmark graphs in DIMACS standard format. \label{obj:B1}
+\item Implement a simple greedy algorithm, such as first-fit.  \label{obj:B2}
+\item Use heuristics to alter the order in which vertices are considered when performing the greedy algorithm and see how this impacts the colourings produced. \label{obj:B3}
+\item Implement a number of other more advanced graph colouring heuristics that are more suited to specific graph classes. \label{obj:B4}
+\item Implement a graph colouring checker, which verifies that colourings are valid. \label{obj:B5}
+\end{enumerate}
+
+\subsection*{Intermediate Objectives}
+\begin{enumerate}[label = \textbf{I\arabic*}]
+\itemsep0em
+\item Develop a genetic algorithm that will be performed on the benchmark graphs. \label{obj:I1}
+\item Develop a simulated annealing algorithm that will be performed on the benchmark graphs. \label{obj:I2}
+\item Produce a hybrid algorithm that utilises aspects of both the genetic algorithm and simulated annealing. \label{obj:I5}
+\item Alter the algorithms developed up to this point so to improve their performance on a number of special-case graph classes. \label{obj:I3}
+\item Analyse the colourings yielded by the algorithms thus far and interpret how the algorithms exploit properties of particular graph classes. \label{obj:I4}
+
+\end{enumerate}  
+
+\subsection*{Advanced Objectives}
+\begin{enumerate}[label = \textbf{A\arabic*}]
+\itemsep0em
+\item Produce a hybrid algorithm of genetic algorithm and tabu search. \label{obj:A3}
+\item Handle large graphs with $100s - 1000s$ of vertices, and very dense graphs. \label{obj:A2}
+\item Visualise the colouring process of the algorithms. \label{obj:A1}
+
+
+\end{enumerate}
+
+
+
+\end{document}

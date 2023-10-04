@@ -1,0 +1,83 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{times}
+\usepackage{durhampaper}
+\usepackage{harvard}
+
+\usepackage{algorithm, algpseudocode}
+
+\usepackage{booktabs}
+\usepackage{longtable}
+
+\usepackage{graphicx}
+\usepackage{wrapfig}
+
+\usepackage{array}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+
+\citationmode{abbr}
+\bibliographystyle{agsm}
+
+
+
+\begin{document}
+\begin{tabular}[t]{p{.30\textwidth}  p{.55\textwidth}  p{.20\textwidth}}
+  \textbf{Harry Alexander Richards}  & & \textbf{06/05/2019} \\
+  \textbf{Daniel Paulusma} & & \textbf{Log Book} \\
+  \textit{Durham University} & & 
+\end{tabular}
+
+\vspace{1cm}
+
+
+
+\begin{longtable}{ p{.15\textwidth} | p{.90\textwidth} } 
+\toprule
+\hline 
+\textbf{Date} & \textbf{Objectives} \\
+\hline
+\textbf{11/06/2018} & Discuss project with Daniel, set initial goals.  \\  \\
+\textbf{15/09/2018} & Look over DIMACS graph structure, begin creating input tool.  \\  \\
+\textbf{17/09/2018} & Complete input tool, research best graph representations.  \\  \\ 
+\textbf{27/09/2018 - 25/10/2018}& Literature Review.  \\  \\  
+\textbf{16/10/2018} & Implement adjacency list representation of graphs.  \\  \\  
+\textbf{18/10/2018} & Implement the first-fit algorithm.  \\  \\  
+\textbf{20/10/2018} & Implement vertex ordering heuristic - order by degree [smallest, largest and random].  \\  \\  
+\textbf{06/11/2018} & Implement graph colouring verify.  \\  \\  
+\textbf{10/11/2018} & Begin genetic algorithm, completed initialise population method.  \\  \\  
+\textbf{12/11/2018} & Implement fitness method, measuring number of conflcits and $k$ value. Parent selection complete,  begin the crossover method but has issues.  \\  \\ 
+\textbf{15/11/2018} & Changed graph repesentation from adjacency lists to networkx as its more convenient for implementation. \\  \\ 
+\textbf{16/11/2018} & A simple crossover method implemented but not great in terms of reducing number of conflicts. \\  \\  
+\textbf{17/11/2018} & Implemented a simple mutation method and iterate for fixed number of iterations, completed this simple genetic algorithm but not yet yielding proper colourings. \\  \\
+\textbf{22/11/2018} & Alter approach completely, must now simply use the genetic algorithm to look for $k$-colourings and fitness algorithm evaluates the `number of conflicts' in each colouring. \\  \\
+\textbf{05/12/2018} & Finished altering existing genetic algorithm so that it now works for the above approach. It produces proper colourings but there quality isn't great for alrge graphs - also struggles with large/dense graphs. \\  \\
+\textbf{09/12/2018} & Alter current algorithms (greedy/first-fit and genetic), currently map vertices to a colour  but now we work with partitions of the set of vertices. \\  \\
+\textbf{10/12/2018} & Altered both the initial population and the crossover method, now based aroudn those in Galinier and Hao's article. \textbf{Reminder: reference in paper}. \\  \\
+\textbf{11/12/2018 - 11/01/2019} & Design report first draft. \\  \\
+\textbf{17/01/2019 - 25/01/2019} & Received design report feedback, act on that and submit it. \\  \\
+\textbf{25/01/2019} & Begin design report presentation. \\  \\
+\textbf{28/01/2019} & Start simulated annealing, using the initial colouring method from genetic algorithm and use the mutation method to get solutions. \\  \\
+\textbf{01/02/2019} & Give design report presentation, \\ \\
+\textbf{03/02/2019} & Complete simulated annealing using temperature distribution defined. \\ \\
+\textbf{05/02/2019} & Began final report outline. \\ \\
+\textbf{12/02/2019} & Began GA-SA hybrid algorithm where a local search of simulated anneAling replaced the mutation operator. \\ \\
+\textbf{17/02/2019} & Prepared formative demonstration for Daniel. \\ \\
+\textbf{22/02/2019} & Completed the basic hybrid algorithm, doesn't work as well as expected. \\ \\
+\textbf{24/02/2019} & Used DSATUR algorithm (by Brelaz), to gain an initial upper bound for the chromatic number. \\ \\
+\textbf{26/02/2019} & Gave formative demonstration (later than expected due to illness). \\ \\
+\textbf{03/03/2019} & Used matplotlib and networkx in order to visualise colourings, unfortunately the method we used seems to use colours that look very similar in some cases.  \\ \\
+\textbf{09/03/2019} & Research tabu search, it is said to be superior to simulated annealing when hybridised with GA. \\ \\
+\textbf{17/03/2019} & Began implementing tabu-GA hybrid, having issues with it producing empty sets. \\ \\
+\textbf{25/03/2019} & Above issue resolved. \\ \\
+\textbf{26/03/2019} & Began final report. \\ \\
+\textbf{02/04/2019} & Acquiring final results in order to obtain graphs for report. \\ \\
+\textbf{19/04/2019} & Draft report submitted. \\ \\
+\textbf{29/04/2019} & Draft report feedback acquired - test implementations on more graphs. \\ \\
+\textbf{01/05/2019} & All results acquired. \\ \\
+\textbf{03/05/2019} & Submitted report. \\ \\
+\hline
+\bottomrule
+\end{longtable}
+
+
+
+\end{document}

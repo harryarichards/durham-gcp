@@ -1,0 +1,7 @@
+presentation/
+*.aux
+*.log
+*.out
+*.gz
+*.png
+*.gif
